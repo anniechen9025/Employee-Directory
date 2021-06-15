@@ -5,10 +5,9 @@ import API from "../utils/API";
 
 class Directory extends Component {
     state = {
-        image: "",
         Employees: [],
         FilterEmployees: [],
-        result: {},
+        SortedEmployees:[],
     };
 
     // When the component mounts, load the next dog to be displayed
@@ -47,15 +46,15 @@ class Directory extends Component {
                 return 0
             }
         })
-        const sortedReverse = sorted.reverse()
+        // const sortedReverse = sorted.reverse()
+        // this.setState({SortedEmployees:sorted})
     }
 
     render() {
         return (
             <div>
-                {/* {result} */}
                 <Search getFilterEmployees = {this.getFilterEmployees}/>
-                <Table Employees = {this.state.FilterEmployees}/>
+                <Table Employees = {this.state.FilterEmployees} sortEmployees = {this.sortEmployees}/>
             </div>
         );
     }
