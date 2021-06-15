@@ -8,7 +8,7 @@ function Table(props) {
             <table class="table">
                 <thead class="thead-dark">
                     <tr>
-                        <th scope="col" style={{ width: 20 + "%" }} onClick={props.sortEmployees()}>Name</th>
+                        <th scope="col" style={{ width: 20 + "%" }} onClick={() =>{props.sortEmployees()}}>Name</th>
                         <th scope="col" style={{ width: 20 + "%" }}>Email</th>
                         <th scope="col" style={{ width: 20 + "%" }}>Phone</th>
                         <th scope="col" style={{ width: 20 + "%" }}>Age</th>
