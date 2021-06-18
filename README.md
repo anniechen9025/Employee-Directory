@@ -3,23 +3,11 @@
 # 19. React Homework: Employee Directory
 
 ## Description
-We had been learning how to use compress and manifest our website to have better performance. I learn how to use webpack to manifest the js we have on our app, also cache the info we want it to be work while offline and save into indexed DB. It was challenge to get the right way of save data into cache with the correct syntax. Over all I enjoy the process of seeing posting the transaction while offline still saved after page refreshed.  
-
-## Installation:
-
-Clone the repository to your local development environment.
-
-```
-git clone git@github.com:anniechen9025/Budget-Trackers.git
-```
-
-Run `npm install` in your terminal to install all dependencies. To run the application locally, run `node server.js` in your CLI, and then open `http://localhost:3000` in your preferred browser. The Workout-Tracker app is [live on Heroku](https://jouan-budget-trackers.herokuapp.com) for you to use as well.
-
+We had been learning how to use React to write jss to build our website. I learn how to use components and props to pass down the variable we want it to be use in another components. It was challenge to using this new kinds of  react thinking to work it logically. Overall I was able to get all the pieces together and render the page in the way was expected.
+   
 
 ## Deployed Link:
-[Budget Tracker](https://jouan-budget-trackers.herokuapp.com)
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://jouan-budget-trackers.herokuapp.com)
+[Employee Directory](https://jouan-employee-directory.herokuapp.com)
 
 ## Example:
 ![Home Page](./public/assets/images/1.png)
