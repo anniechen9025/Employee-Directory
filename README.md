@@ -7,10 +7,10 @@ We had been learning how to use React to write jss to build our website. I learn
    
 
 ## Deployed Link:
-[Employee Directory](https://jouan-employee-directory.herokuapp.com)
+[Employee Directory](https://anniechen9025.github.io/Employee-Directory/)
 
 ## Example:
-![Home Page](./public/assets/images/1.png)
+![Home Page](./public/1.png)
 
 ## Built With:
 - [HTML5](https://html.com/html5/)
